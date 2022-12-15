@@ -1,0 +1,52 @@
+:root {
+   /* variables de colores */
+   --amarillo: #EAC926;
+   --azul: #03264C;
+   --Celeste: #1259c3;
+   --Gris-oscuro: #666;
+   --Gris-claro: #ebebeb;
+   --Verde: #39b54a;
+   /* fuentes */
+   --fuente: 'Roboto', sans-serif;
+   /* tamaños tipograficos */
+   --parrafos: 12px;
+   --titulos: 24px;
+   --precio: 18px;
+   --descuento: 16px
+   --descripcion: 16px
+
+}
+
+ /* 
+Titulares (Basado en tu última visita/Ofertas): 24px
+ */
+ * {
+   margin: 0;
+   padding: 0;
+ }
+
+ a {
+   color: black;
+   text-decoration: none;
+ }
+
+ body {
+   font-family: var(--fuente);
+ }
+ li {
+   list-style: none;
+ }
+
+ header {
+    background-color: var(--amarillo);
+    padding-top: 25px;
+ }
+ header div.logo{
+   width: 130px;
+   margin-left: 25px;
+}
+ 
+
+ main section h4{
+   font-size: var(--titulos);
+ }
