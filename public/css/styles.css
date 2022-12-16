@@ -12,41 +12,76 @@
    --parrafos: 12px;
    --titulos: 24px;
    --precio: 18px;
-   --descuento: 16px
-   --descripcion: 16px
+   --descuento: 16px;
+   --descripcion: 16px;
 
 }
 
  /* 
 Titulares (Basado en tu última visita/Ofertas): 24px
  */
- * {
+* {
    margin: 0;
    padding: 0;
- }
+}
 
- a {
+a {
    color: black;
    text-decoration: none;
- }
+}
 
- body {
+body {
    font-family: var(--fuente);
- }
- li {
-   list-style: none;
- }
+}
 
- header {
+li {
+   list-style: none;
+}
+
+header {
     background-color: var(--amarillo);
     padding-top: 25px;
- }
- header div.logo{
+}
+
+header div.logo{
    width: 130px;
    margin-left: 25px;
 }
- 
 
- main section h4{
+header div.burger-menu {
+  background-color: var(--Celeste);
+  width: 35px;
+  height: 35px;
+  border-radius: 10%;
+
+
+}
+
+header div.burger-menu i {
+  color: var(--Gris-claro);
+}
+
+main section h4{
    font-size: var(--titulos);
  }
+
+main section article p#precio {
+  font-size: var(--precio);
+}
+
+main section article p#descuento {
+  font-size: var(--descuento);
+}
+
+main section article h5.descripcion {
+  font-size: var(--descripcion);
+}
+
+footer article {
+  text-align: center;
+}
+
+footer span {
+  text-align: center;
+}
+
