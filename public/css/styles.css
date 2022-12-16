@@ -93,13 +93,6 @@ main section article h5.descripcion {
   font-size: var(--descripcion);
 }
 
-footer article {
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-block-end: 40px;
-  text-align: center;
-}
-
 footer article i{
   align-items: center;
   margin-block-start: 30px;
@@ -107,4 +100,12 @@ footer article i{
   color: var(--Celeste);
   font-size: 2em;
 }
+
+footer article {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-block-end: 40px;
+  text-align: center;
+}
+
 
