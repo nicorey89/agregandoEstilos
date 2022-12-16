@@ -49,10 +49,13 @@ header div.logo{
 }
 
 header div.burger-menu {
+  align-content: center;
   background-color: var(--Celeste);
   width: 35px;
   height: 35px;
   border-radius: 10%;
+  font-size: 2em;
+  align-items: center;
 
 
 }
@@ -81,7 +84,16 @@ footer article {
   text-align: center;
 }
 
+footer article i{
+  align-items: center;
+  margin-block-start: 30px;
+  margin-block-end: 10px;
+  color: var(--Celeste);
+  font-size: 2em;
+}
+
 footer span {
+  margin-block: 20px;
   text-align: center;
 }
 
