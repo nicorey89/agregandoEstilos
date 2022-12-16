@@ -40,7 +40,8 @@ li {
 
 header {
     background-color: var(--amarillo);
-    padding-top: 25px;
+    padding: 25px 0;
+   
 }
 
 header div.logo{
@@ -48,20 +49,32 @@ header div.logo{
    margin-left: 25px;
 }
 
+header div.busqueda{
+  margin-left: 15px;
+  width: 170px;
+  margin-bottom: 10px;
+}
+ header p{
+  text-align: center;
+  margin-bottom: 15px;
+ }
+
 header div.burger-menu {
-  align-content: center;
   background-color: var(--Celeste);
-  width: 35px;
-  height: 35px;
-  border-radius: 10%;
-  font-size: 2em;
-  align-items: center;
-
-
+  color: var(--Gris-claro);
+  width: 15px;
+  border-radius: 5px;
+  padding: 7px;
+  margin: 25px auto 0;
 }
 
-header div.burger-menu i {
-  color: var(--Gris-claro);
+
+header nav ul.lista-superior{
+  margin-bottom: 15px;
+  font-size: var(--parrafos);
+}
+header nav ul li {
+  font-size: var(--parrafos);
 }
 
 main section h4{
@@ -81,19 +94,17 @@ main section article h5.descripcion {
 }
 
 footer article {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-block-end: 40px;
   text-align: center;
 }
 
 footer article i{
   align-items: center;
   margin-block-start: 30px;
-  margin-block-end: 10px;
+  margin-block-end: 20px;
   color: var(--Celeste);
   font-size: 2em;
-}
-
-footer span {
-  margin-block: 20px;
-  text-align: center;
 }
 
