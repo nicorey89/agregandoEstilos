@@ -31,6 +31,7 @@ a {
 }
 
 body {
+  background-color: var(--Gris-claro);
    font-family: var(--fuente);
 }
 
@@ -61,7 +62,7 @@ header div.busqueda{
 
 header div.burger-menu {
   background-color: var(--Celeste);
-  color: var(--Gris-claro);
+  color: white;
   width: 15px;
   border-radius: 5px;
   padding: 7px;
@@ -91,6 +92,11 @@ main section article p#descuento {
 
 main section article h5.descripcion {
   font-size: var(--descripcion);
+}
+
+footer {
+  background-color: white;
+  padding: 10px;
 }
 
 footer article i{
